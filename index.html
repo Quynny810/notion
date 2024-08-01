@@ -15,13 +15,13 @@
             background-color: #fff;
             font-weight: 400;
             font-style: normal;
-            letter-spacing: 0.01em;
+            letter-spacing: 0.05em;
 
         }
         .box{
             display: inline-block;
             display: inline-block;
-            padding: 10px;
+            padding: 5px;
             border-radius: 20px;
             min-width: 40px;
             height: 50px;
@@ -83,7 +83,7 @@
     hours = 23 - now.getHours();
     minutes = 59 - now.getMinutes();
     seconds = 59 - now.getSeconds();
-    left_days.innerHTML = days + "<span class=\"small\"> days </span>"
+    left_days.innerHTML = days + "<br> <span class=\"small\"> days </span>"
     left_hours.innerHTML = hours + "<br> <span class=\"small\"> hours</span>";
     left_minutes.innerHTML = minutes + "<br> <span class=\"small\">mins</span>";
     left_seconds.innerHTML = seconds + "<br> <span class=\"small\">secs</span>";
