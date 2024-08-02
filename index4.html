@@ -13,12 +13,14 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  border-radius: 10px;
 }
 
 body {
   font-family: "Lexend", sans-serif;
   background-color: #362a2b;
   color: #e5ebf3;
+  border-radius: 10px;
 }
 
 .slider {
@@ -26,6 +28,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: hidden;
+  border-radius: 10px;
 }
 
 .slide {
@@ -36,6 +39,7 @@ body {
   height: 100%;
   opacity: 0;
   transition: opacity 0.4s ease-in-out;
+  border-radius: 10px;
 }
 
 .slide.current {
@@ -46,16 +50,19 @@ body {
 .slide:first-child {
   background: url("1.jpeg") no-repeat
     center top/cover;
+  border-radius: 10px;
 }
 
 .slide:nth-child(2) {
   background: url("2.jpeg") no-repeat
     center top/cover;
+  border-radius: 10px;
 }
 
 .slide:nth-child(3) {
   background: url("3.jpeg") no-repeat
     center top/cover;
+  border-radius: 10px;
 }
 
 
@@ -82,8 +89,8 @@ body {
 }
 
 .buttons button:hover {
-  background-color: #e5ebf3;
-  color: #362a2b;
+  background-color: #b8d5ff;
+  color: #01398a;
 }
 
 @media (min-width: 640px) and (min-height: 640px) {
